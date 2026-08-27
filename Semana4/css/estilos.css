@@ -1,0 +1,30 @@
+header{
+    height: 25vh;
+    background-color: aquamarine;
+}
+
+nav{
+    height: 15vh;
+    background-color: whitesmoke;
+}
+
+section{
+    height: 50vh;
+}
+
+footer{
+    height: 10vh;
+    background-color: cadetblue;
+}
+
+#uno{
+    background-color: blueviolet;
+}
+
+#dos{
+    background-color: red;
+}
+
+#tres{
+    background-color: orange;
+}

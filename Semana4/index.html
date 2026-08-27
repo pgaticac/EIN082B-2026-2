@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Bootstrap CSS</title>
+</head>
+
+<body>
+    <!-- div.container>div.row*4>div.col -->
+    <div class="container-fuid">
+        <header class="row">
+            <div class="col">Header</div>
+        </header>
+        <nav class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Crudo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+        </nav>
+        <section class="row">
+            <div id="uno" class="col-12 col-md-5">
+                Uno
+            </div>
+            <div id="dos" class="col">
+                Dos
+            </div>
+            <div id="tres" class="col-2">
+                Tres
+            </div>
+        </section>
+        <footer class="row">
+            <div class="col">Footer</div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
