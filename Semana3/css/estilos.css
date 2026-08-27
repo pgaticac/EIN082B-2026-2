@@ -1,0 +1,31 @@
+
+
+
+div{
+    width: 760px; /*ancho*/
+    width: 25vw;
+    height: 200px; /*alto*/
+    height: 25vw;
+    box-sizing: border-box;
+    padding-top: 10vw;
+}
+
+#uno{
+  background-color: aquamarine;
+  margin-bottom: 20px;
+}
+#dos{
+  background-color: yellow;
+  margin-left: 20vw;
+}
+
+.texto-rojo{
+    color:red;
+}
+.texto-centrado{
+    text-align: center;
+}
+
+body{
+    color: blueviolet;
+}
